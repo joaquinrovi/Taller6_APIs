@@ -1,0 +1,28 @@
+# Entornos virtuales y herramientas locales
+.venv/
+.venv-*/
+venv/
+env-api/
+.tox/
+
+# Archivos generados por Python y pruebas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credenciales locales
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
